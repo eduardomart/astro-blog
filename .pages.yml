@@ -28,6 +28,7 @@ content:
       fields: [ name, draft, date ]
     fields:
       - { name: author, label: Author, type: string }
+      - { name: headshot, label: Headshot, type: image }
       - { name: pubDatetime, label: "Publish Date", type: date }
       - { name: modDatetime, label: "Modified Date", type: date }
   - name: about
