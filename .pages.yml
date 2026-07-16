@@ -20,6 +20,16 @@ content:
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
+  - name: authors
+    label: Authors
+    type: collection
+    path: src/content/authors
+    view:
+      fields: [ name, draft, date ]
+    fields:
+      - { name: author, label: Author, type: string }
+      - { name: pubDatetime, label: Date, type: date }
+      - { name: modDatetime, label: Date, type: date }
   - name: about
     label: About page
     type: file
