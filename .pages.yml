@@ -25,7 +25,7 @@ content:
     type: collection
     path: src/content/authors
     view:
-      fields: [ name, draft, date ]
+      fields: [ title, draft, date ]
     fields:
       - { name: author, label: Author, type: string }
       - { name: headshot, label: Headshot, type: image }
